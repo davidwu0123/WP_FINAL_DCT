@@ -4,13 +4,12 @@
 <style>
 
 
- 
 
 .navbar-inner {
     background-color: white;
     background-image: linear-gradient(to bottom, white, gary);
     background-repeat: repeat-x;
-
+    
     border-radius: 4px 4px 4px 4px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
     min-height: 40px;
@@ -60,6 +59,7 @@
     text-shadow: 0 0px 0 #ffffff;
 	font-size: 16px;
 	font-family:"微軟正黑體";
+	font-weight:bold;
 }
 
 .navbar .brand {
@@ -70,7 +70,7 @@
   font-size: 25px;
   font-weight: 200;
   color: orange;
-  font-family:"微軟正黑體";
+	font-family:"微軟正黑體";
   text-shadow: 1px 1px 0 Tomato;
 }
 
