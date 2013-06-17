@@ -811,7 +811,7 @@ ol ul {
 }
 
 li {
-  line-height: 20px;
+  line-height: 1.5;
 }
 
 ul.unstyled,
@@ -3054,6 +3054,8 @@ table th[class*="span"],
 }
 
 .dropdown .dropdown-menu .nav-header {
+
+  
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -3907,7 +3909,9 @@ input[type="submit"].btn.btn-mini {
 
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-image: linear-gradient(to bottom, orange, tomato);
+  color: white;
+
 }
 
 .nav > li > a > img {
@@ -3919,14 +3923,23 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-header {
+  background-image: linear-gradient(to bottom, orange, tomato);
   display: block;
+  
+  
+  margin-top:5px;
   padding: 3px 15px;
-  font-size: 11px;
+  font-size: 18px;
   font-weight: bold;
-  line-height: 20px;
-  color: #999999;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  line-height: 22px;
+  color: white;
+
   text-transform: uppercase;
+  text-align: center;
+  
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
 }
 
 .nav li + .nav-header {
@@ -3934,20 +3947,28 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-list {
-  padding-right: 15px;
+  padding-right: 50px;
   padding-left: 15px;
-  margin-bottom: 0;
+
+  
 }
 
 .nav-list > li > a,
 .nav-list .nav-header {
+
+
+  
   margin-right: -15px;
   margin-left: -15px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 .nav-list > li > a {
+  
+  margin-top: 5px;
+  color:orange;
   padding: 3px 15px;
+
 }
 
 .nav-list > .active > a,
@@ -4015,7 +4036,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
-  line-height: 20px;
+  line-height: 1.5;
   border: 1px solid transparent;
   -webkit-border-radius: 4px 4px 0 0;
      -moz-border-radius: 4px 4px 0 0;
